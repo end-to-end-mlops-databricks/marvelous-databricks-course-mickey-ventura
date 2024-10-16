@@ -24,8 +24,10 @@ source venv/bin/activate
 uv pip install -r pyproject.toml --all-extras
 uv lock
 ```
+<h1 align="center">
+Personal Notes
 
-# Personal Notes
+# Week 1 (October 16 - October 23, 2024)
 ## Installation
 - Install python versions with uv: `uv python install 3.11.10`
 - Create virtual environment: `uv venv -p 3.11.10`
@@ -36,3 +38,8 @@ uv lock
 - needed to adjust installation as above,
 - needed to adjust `pyproject.toml` file line 6 to be: `requires-python = ">=3.11, <3.12"`
 
+# Week 2 (October 24 - October 30, 2024)
+# Week 3 (October 31 - November 6, 2024)
+# Week 4 (November 7 - November 13, 2024)
+# Week 5 (November 14 - November 20, 2024)
+# Week 6 (November 21 - November 25, 2024)
