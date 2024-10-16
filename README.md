@@ -24,3 +24,15 @@ source venv/bin/activate
 uv pip install -r pyproject.toml --all-extras
 uv lock
 ```
+
+# Personal Notes
+## Installation
+- Install python versions with uv: `uv python install 3.11.10`
+- Create virtual environment: `uv venv -p 3.11.10`
+- Activate virtual environment: `source .venv/bin/activate`
+- Install python dependencies: `uv pip install -r pyproject.toml --all-extras`
+- Lock exact dependency versions: `uv lock`
+
+- needed to adjust installation as above,
+- needed to adjust `pyproject.toml` file line 6 to be: `requires-python = ">=3.11, <3.12"`
+
