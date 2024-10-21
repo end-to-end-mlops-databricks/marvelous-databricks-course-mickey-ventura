@@ -1,0 +1,9 @@
+bundle:
+  name: mlops-dbrx-bundle
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-1713302240061567.7.azuredatabricks.net
